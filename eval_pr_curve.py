@@ -15,7 +15,7 @@ from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 
 from mmcv import Config
-from mmdet.datasets import (build_dataset, replace_ImageToTensor)
+from mmdet.datasets import build_dataset
 
 MODEL = "mask_rcnn"
 MODEL_NAME = "mask_rcnn_r50_fpn_1x_coco_senet"
